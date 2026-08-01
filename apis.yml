@@ -1,8 +1,31 @@
 aid: sage-care
 name: Sage Care
-description: Sage Care is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sage Care (sagecare.ai) builds an AI-native, HIPAA-compliant software platform
+  made exclusively for home care agencies. Its product bundles an AI receptionist,
+  a purpose-built CRM, an AI notetaker and a clinical scribe that automate the
+  intake, referral, scheduling and documentation work that home care operators
+  handle every day. Sage Care integrates with existing home care management
+  systems such as WellSky and AxisCare rather than replacing them, and ships
+  native iOS and desktop applications for caregivers and office staff. The company
+  is backed by General Catalyst and surfaced through its portfolio. As of this
+  enrichment pass Sage Care publishes no public developer API, OpenAPI/AsyncAPI
+  specification, SDKs, or developer documentation — it is an application vendor
+  rather than an API provider, so this profile captures company identity and
+  security/compliance posture only.
 url: https://raw.githubusercontent.com/api-evangelist/sage-care/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/DqF2ppjl3yuptDplcch4cRGM.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health Care
+- Home Care
+- Artificial Intelligence
+- CRM
+- HIPAA
+- Health Assurance
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/sage-care-domain-security.yml
+- type: Website
+  url: https://sagecare.ai
+- type: Blog
+  url: https://sagecare.ai/blog
+- type: SignUp
+  url: https://app.sagecare.ai
+- type: Login
+  url: https://app.sagecare.ai
+- type: TermsOfService
+  url: https://sagecare.ai/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://sagecare.ai/legal/privacy-policy
+- type: Support
+  url: mailto:team@sagecare.ai
+- type: TrustCenter
+  url: security/sage-care-trust-center.yml
+- type: Compliance
+  url: https://trust.delve.co/sage
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

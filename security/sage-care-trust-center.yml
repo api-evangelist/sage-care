@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  sagecare.ai homepage ("HIPAA Trust Center" nav/footer link and "100%
+  HIPAA-compliant" product claim) linking to the hosted trust center at
+  trust.delve.co/sage
+name: Sage Care Trust Center
+url: https://trust.delve.co/sage
+hosted_by: Delve (delve.co) — compliance automation / trust-center platform
+verified: '2026-07-21'
+certifications:
+- name: HIPAA
+  status: compliant
+  evidence: >-
+    sagecare.ai describes the product as "100% HIPAA-compliant" and links a
+    dedicated "HIPAA Trust Center" at trust.delve.co/sage
+notes: >-
+  Trust center is externally hosted by Delve. Only HIPAA is claimed on the
+  public marketing site; the trust portal (trust.delve.co/sage) may enumerate
+  additional frameworks (e.g. SOC 2) behind a request/NDA gate but those were
+  not independently verified in this pass (portal returned HTTP 429 on probe).
